@@ -19,6 +19,8 @@ By using the sensors (Gyroscope and accelerometer) in a smartphone, they have ca
 
 We will try to implement some classical machine learning algorithms and observe our model performance using F-1 Scores of different algorithms.<br><br>
 
+
+
 ## Problem Framework
 Smartphone dataset with data points consisting each corresponding to one of the six activities.<br>
 Dataset is built from below 17 signals:<br>
@@ -59,7 +61,7 @@ o	kurtosis(): kurtosis of the frequency domain signal<br>
 
 ## Problem Statement
 
-1.Performing Exploratory data analysis (EDA) differentiating the six activities > Target Variables <br>
+1.Performing Exploratory data analysis (EDA) differentiating the six activities(Target Variable) <br>
  1.1 Sitting <br>
  1.2 Walking <br>
  1.3.Walking_upstairs <br>
