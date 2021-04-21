@@ -1,10 +1,16 @@
 # HumanActivityDetectionWithSmartPhones
-CMPE 255 Data Mining 
+CMPE 255 Data Mining Project
 
+Team-8
+Subhash Polisetti 015286063
+Kanak Kshirsagar 015264106
+Shreshta Balmuri 015442960
+Priyanka Cornelius 015217254
+Shubham Singla 014807221
 
-#Human Activity Recognition
+# Human Activity Recognition
 
-##Introduction
+## Introduction
 
 This project is to build a model that predicts the human activities such as Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing or Laying from the smartphone dataset.
 This dataset is collected from 30 persons (referred as subjects in this dataset), performing different activities with a smartphone to their waists. The data is recorded with the help of sensors (accelerometer and Gyroscope) in that smartphone. This experiment was video recorded to label the data manually.
@@ -13,7 +19,7 @@ By using the sensors (Gyroscope and accelerometer) in a smartphone, they have ca
 
 We will try to implement some classical machine learning algorithms and observe our model performance using F-1 Scores of different algorithms.
 
-##Problem Framework
+## Problem Framework
 Smartphone dataset with data points consisting each corresponding to one of the six activities.
 Dataset is built from below 17 signals:
 o	tBodyAcc-XYZ
@@ -51,7 +57,7 @@ o	meanFreq(): Weighted average of the frequency components to obtain a mean freq
 o	skewness(): skewness of the frequency domain signal
 o	kurtosis(): kurtosis of the frequency domain signal
 
-##Problem Statement
+## Problem Statement
 
 1.Performing Exploratory data analysis (EDA) differentiating the six activities into static and Dynamic Activities using visualization techniques.
 2.Plotting Distribution plots for the Static and Dynamic activities using the Magnitude of the acceleration of the activities.
