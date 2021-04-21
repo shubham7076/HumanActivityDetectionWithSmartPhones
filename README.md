@@ -1,12 +1,12 @@
 # HumanActivityDetectionWithSmartPhones
 CMPE 255 Data Mining Project
 
-Team-8
-Subhash Polisetti 015286063
-Kanak Kshirsagar 015264106
-Shreshta Balmuri 015442960
-Priyanka Cornelius 015217254
-Shubham Singla 014807221
+Team-8<br><br>
+Subhash Polisetti 015286063<br>
+Kanak Kshirsagar 015264106<br>
+Shreshta Balmuri 015442960<br>
+Priyanka Cornelius 015217254<br>
+Shubham Singla 014807221<br>
 
 # Human Activity Recognition
 
