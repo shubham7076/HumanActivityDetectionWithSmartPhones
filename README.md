@@ -59,10 +59,17 @@ o	kurtosis(): kurtosis of the frequency domain signal<br>
 
 ## Problem Statement
 
-1.Performing Exploratory data analysis (EDA) differentiating the six activities into static and Dynamic Activities using visualization techniques.<br>
-2.Plotting Distribution plots for the Static and Dynamic activities using the Magnitude of the acceleration of the activities.<br>
-3.Dimensionality reduction required for the high dimensional dataset using t-distributed Stochastic Neighbor Embedding (t-SNE) for different perplexities each for a good number of iterations.<br>
-4.Trying to implement classical Linear SVC with GridSearch machine learning algorithm, to observe the model accuracy for performance and evaluating the confusion matrix.<br>
-5.Comparing seven classical ML classifiers by calculating the accuracy as F1-Score for each ML classifier.<br>
-6.Setting up a Stacking classifier using each of the previous classifiers as an estimator and evaluating the F-1 Score for training and test dataset.<br>
-7.Trying to reduce the number of features for important features from the dataset and then evaluating the accuracy for training and test dataset.<br>
+1.Performing Exploratory data analysis (EDA) differentiating the six activities > Target Variables <br>
+ 1.1 Sitting <br>
+ 1.2 Walking <br>
+ 1.3.Walking_upstairs <br>
+ 1.4 Walking_downstairs <br>
+ 1.5 Lying <br>
+ 1.6 Standing <br>
+ into static and Dynamic Activities using visualization techniques.<br>
+3.Plotting Distribution plots for the Static and Dynamic activities using the Magnitude of the acceleration of the activities.<br>
+4.Dimensionality reduction required for the high dimensional dataset using t-distributed Stochastic Neighbor Embedding (t-SNE) for different perplexities each for a good number of iterations.<br>
+5.Trying to implement classical Linear SVC with GridSearch machine learning algorithm, to observe the model accuracy for performance and evaluating the confusion matrix.<br>
+6.Comparing seven classical ML classifiers by calculating the accuracy as F1-Score for each ML classifier.<br>
+7.Setting up a Stacking classifier using each of the previous classifiers as an estimator and evaluating the F-1 Score for training and test dataset.<br>
+8.Trying to reduce the number of features for important features from the dataset and then evaluating the accuracy for training and test dataset.<br>
