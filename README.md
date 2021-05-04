@@ -19,7 +19,7 @@ By using the sensors (Gyroscope and accelerometer) in a smartphone, they have ca
 
 We will try to implement some classical machine learning algorithms and observe our model performance using F-1 Scores of different algorithms.<br><br>
 
-![alt text](https://imgur.com/WTKA3de)
+![i](https://drive.google.com/file/d/1gq13PY8iUXBVJYY4PiEgIyN_IY2JVgAP/view?usp=sharing)
 
 
 ## Features
@@ -80,8 +80,8 @@ o	kurtosis(): kurtosis of the frequency domain signal<br>
 <br>
 <br>
 3. Dimensionality Reduction
-   3.2 Which Perplexity value performs best with TSNE? <br>
-   3.1 Which Sensor Is More Important For Classifying Participants By Walking Style? <br>
+   3.1 Which Perplexity value performs best with TSNE? <br>
+   3.2 Which Sensor Is More Important For Classifying Participants By Walking Style? <br>
 <br>
 <br>
 4. which classifier performs best for the activity detection? <br>
