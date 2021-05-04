@@ -84,5 +84,7 @@ o	kurtosis(): kurtosis of the frequency domain signal<br>
    3.1 Which Sensor Is More Important For Classifying Participants By Walking Style? <br>
 <br>
 <br>
-5. which classifier performs best for the activity detection? <br>
-   5.1 Finding the best estimator with Gridsearch <br>
+4. which classifier performs best for the activity detection? <br>
+   4.1 Finding the best estimator with Gridsearch <br>
+   4.2 Finding the Best classifier after performing features reduction
+
