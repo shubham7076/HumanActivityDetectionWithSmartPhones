@@ -19,7 +19,10 @@ By using the sensors (Gyroscope and accelerometer) in a smartphone, they have ca
 
 We will try to implement some classical machine learning algorithms and observe our model performance using F-1 Scores of different algorithms.<br><br>
 
-## Problem Framework
+![i](https://drive.google.com/file/d/1gq13PY8iUXBVJYY4PiEgIyN_IY2JVgAP/view?usp=sharing)
+
+
+## Features
 Smartphone dataset with data points consisting each corresponding to one of the six activities.<br>
 Dataset is built from below 17 signals:<br>
 o	tBodyAcc-XYZ<br>
@@ -57,12 +60,31 @@ o	meanFreq(): Weighted average of the frequency components to obtain a mean freq
 o	skewness(): skewness of the frequency domain signal<br>
 o	kurtosis(): kurtosis of the frequency domain signal<br>
 
-## Problem Statement
 
-1.Performing Exploratory data analysis (EDA) differentiating the six activities into static and Dynamic Activities using visualization techniques.<br>
-2.Plotting Distribution plots for the Static and Dynamic activities using the Magnitude of the acceleration of the activities.<br>
-3.Dimensionality reduction required for the high dimensional dataset using t-distributed Stochastic Neighbor Embedding (t-SNE) for different perplexities each for a good number of iterations.<br>
-4.Trying to implement classical Linear SVC with GridSearch machine learning algorithm, to observe the model accuracy for performance and evaluating the confusion matrix.<br>
-5.Comparing seven classical ML classifiers by calculating the accuracy as F1-Score for each ML classifier.<br>
-6.Setting up a Stacking classifier using each of the previous classifiers as an estimator and evaluating the F-1 Score for training and test dataset.<br>
-7.Trying to reduce the number of features for important features from the dataset and then evaluating the accuracy for training and test dataset.<br>
+
+## Goal
+
+1.Performing Exploratory data analysis (EDA) differentiating the six activities(Target Variable) <br>
+ 1.1 Sitting <br>
+ 1.2 Walking <br>
+ 1.3.Walking_upstairs <br>
+ 1.4 Walking_downstairs <br>
+ 1.5 Lying <br>
+ 1.6 Standing <br>
+ into static and Dynamic Activities using visualization techniques.<br>
+<br>
+<br>
+2. Activity Exploration <br>
+    2.1 Are The Activities Separable? <br>
+    2.2 How Good Are The Activities Separable? <br>
+<br>
+<br>
+3. Dimensionality Reduction
+   3.1 Which Perplexity value performs best with TSNE? <br>
+   3.2 Which Sensor Is More Important For Classifying Participants By Walking Style? <br>
+<br>
+<br>
+4. which classifier performs best for the activity detection? <br>
+   4.1 Finding the best estimator with Gridsearch <br>
+   4.2 Finding the Best classifier after performing features reduction
+
